@@ -61,12 +61,12 @@ body {
 .fccHouse {
     width: 300px;
     height: 285.65px;
-    background-image: url(/images/fcchouse-normal.png);
+    background-image: url("images/fcchouse-normal.png");
     background-size: 300px 285.65px;
     border: none;
 }
 .fccHouse:hover {
-    background-image: url(/images/fccHover.png);
+    background-image: url("images/fccHover.png");
     background-repeat: no-repeat;
     width: 300px;
     
@@ -147,11 +147,11 @@ body {
 .wegigHouse {
     width: 300px;
     height: 261.2px;
-    background-image: url(/images/wegighouse-normal.png);
+    background-image: url("images/wegighouse-normal.png");
     background-size: 300px 261.2px;  
 }
 .wegigHouse:hover {
-    background-image: url(/images/wegighouse-hover.png);
+    background-image: url("images/wegighouse-hover.png");
     background-repeat: no-repeat;
     width: 300px;
 }
