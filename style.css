@@ -199,13 +199,13 @@ a {
 .airportalHouse {
     width: 300px;
     height: 260px;
-    background-image: url(../images/airportalhouse-normal.png);
+    background-image: url(images/airportalhouse-normal.png);
     background-size: 300px 260px;
 }
 .airportalHouse:hover {
     width: 300px;
     height: 260px;
-    background-image: url(/images/airportalhouse-Hover.png);
+    background-image: url(images/airportalhouse-Hover.png);
     background-size: 300px 260px;
 }
 .airportalLogo {
@@ -217,13 +217,13 @@ a {
 .buhiHouse {
     width: 300px;
     height: 362.39px;
-    background-image: url(/Users/angeliwanowski/Documents/MyCode/19-week/UX_UI_HW_19/UX_UI_HW_19/images/buhihouse-normal.png);
+    background-image: url(images/buhihouse-normal.png);
     background-size: 300px 362.29px;
 }
 .buhiHouse:hover {
     width: 300px;
     height: 362.39px;
-    background-image: url(/Users/angeliwanowski/Documents/MyCode/19-week/UX_UI_HW_19/UX_UI_HW_19/images/buhiHouseHOVER.png);
+    background-image: url(images/buhiHouseHOVER.png);
     background-size: 300px 362.29px;
 }
 .buhiLogo {
