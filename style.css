@@ -199,7 +199,7 @@ a {
 .airportalHouse {
     width: 300px;
     height: 260px;
-    background-image: url(/images/airportalhouse-normal.png);
+    background-image: url(./images/airportalhouse-normal.png);
     background-size: 300px 260px;
 }
 .airportalHouse:hover {
