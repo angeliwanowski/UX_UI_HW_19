@@ -1,0 +1,335 @@
+body {
+    background-color: #FFF4E0;
+    margin: 20px;
+}
+.navbaroptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #101ECB;
+}
+.portfolios {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #101ECB;
+}
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #101ECB;
+}
+.resume {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #101ECB;
+}
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #101ECB;
+    text-align: center;
+}
+@media screen and (min-width: 1201px) {
+    .logo {
+      font-size: 40px;
+    } }
+@media screen and (max-width: 1200px) {
+       .logo {
+          font-size: 30px;
+        } }
+@media screen and (max-width: 1200px) {
+            .about, .portfolios, .contact, .resume {
+               font-size: 20px;
+             } }
+@media screen and (min-width: 1201px) {
+            .about, .portfolios, .contact, .resume {
+                  font-size: 24px;
+                } }
+hr {
+                    border-top: 5px solid #101ECB;
+                    margin: 20px;
+                }
+.meHomey {
+    width: 20%;
+    height: auto;
+    align-items: center;
+}
+.theGoods {
+    background-image: url("images/archlol.png");
+    background-size: cover;
+    border-bottom: solid #101ECB 9px;
+    margin: 20px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #101ECB;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #101ECB;
+    text-align: center;
+    font-size: 34px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #101ECB;
+    text-align: center;
+    font-size: 28px;
+    margin: 20px;
+    padding-left: 225px;
+    padding-right: 225px;
+    line-height: 1.75;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #101ECB;
+    text-align: center;
+    font-size: 28px;
+}
+.desktop {
+    background-color: #101ECB;
+    color: #FFF4E0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 350px;
+    height: 100px;
+    margin-right: 40px;
+}
+.desktop:active {
+    background-color: #FFF4E0;
+    color: #101ECB;
+    border: 4px solid;
+    border-color: #101ECB;
+    cursor: pointer;
+}
+/* .desktop:hover {
+    background-color: #FFF4E0;
+    color: #101ECB;
+    border: 4px solid;
+    border-color: #101ECB;
+    cursor: pointer;
+} */
+.stairs {
+    width: 450px;
+    height: auto;
+    margin-left: 200px;
+    margin-bottom: 10px;
+
+}
+.stairs::after {
+    width: 700px;
+    height: auto;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    border: 4px solid;
+    border-color: #101ECB;
+}
+.jump {
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #101ECB;
+    text-align: center;
+    font-size: 60px;
+    margin-right: 80px;
+}
+.designList li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #101ECB;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.researchList li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #101ECB;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.toolsList li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #101ECB;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.masterofLists {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.toolsandcode {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+.codeList li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #101ECB;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.design {
+    margin-right: 60px;
+}
+.research {
+    margin-right: 60px;
+}
+.footerInfo {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.footer-container {
+    margin-bottom: 40px;
+}
+.footerInfo li {
+    padding-right: 175px;
+    margin-left: 10px;
+    display: flex;
+}
+.flex-container {
+    position: sticky;
+    top: 0;
+}
+hr {
+    border-top: 5px solid #101ECB;
+    margin: 20px;
+}
+.logo2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #101ECB;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+.email {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #101ECB;
+    font-size: 40px; 
+}
+.linkedin {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #101ECB;
+    font-size: 40px; 
+}
+.resume2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #101ECB;
+    font-size: 40px;
+}
+@media screen and (max-width: 850px) {
+    .theGoods {
+        background-image: none;
+        background-size: cover;
+    }
+    .masterofLists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .masterofLists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #101ECB;
+        text-align: center;
+        font-size: 28px;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: #101ECB;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.75;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .meHomey {
+        width: 60%;
+        height: auto;
+        align-items: center;
+    }
+    .stairs {
+        width: 250px;
+        height: auto;
+        margin-left: 200px;
+        margin-bottom: 10px;
+    }
+    .theGoods {
+        background-image: none;
+        background-size: cover;
+    }
+    .buttonBLOCK button {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        margin-left: 15%;
+    } 
+}
