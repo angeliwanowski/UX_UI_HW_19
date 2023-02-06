@@ -149,13 +149,12 @@ h2 {
     margin-bottom: 10px;
 
 }
-.stairs::after {
+.stairs:active {
     width: 700px;
     height: auto;
     margin-left: 200px;
     margin-bottom: 10px;
-    border: 4px solid;
-    border-color: #101ECB;
+    
 }
 .jump {
     width: 500px;
