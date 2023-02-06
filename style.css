@@ -61,12 +61,12 @@ body {
 .fccHouse {
     width: 300px;
     height: 285.65px;
-    background-image: url(images/fcchouse-normal.png);
+    background-image: url(../images/fcchouse-normal.png);
     background-size: 300px 285.65px;
     border: none;
 }
 .fccHouse:hover {
-    background-image: url(images/fccHover.png);
+    background-image: url(../images/fccHover.png);
     background-repeat: no-repeat;
     width: 300px;
     
@@ -147,11 +147,11 @@ body {
 .wegigHouse {
     width: 300px;
     height: 261.2px;
-    background-image: url(images/wegighouse-normal.png);
+    background-image: url(../images/wegighouse-normal.png);
     background-size: 300px 261.2px;  
 }
 .wegigHouse:hover {
-    background-image: url(images/wegighouse-hover.png);
+    background-image: url(../images/wegighouse-hover.png);
     background-repeat: no-repeat;
     width: 300px;
 }
@@ -199,13 +199,13 @@ a {
 .airportalHouse {
     width: 300px;
     height: 260px;
-    background-image: url(images/airportalhouse-normal.png);
+    background-image: url(../images/airportalhouse-normal.png);
     background-size: 300px 260px;
 }
 .airportalHouse:hover {
     width: 300px;
     height: 260px;
-    background-image: url(images/airportalhouse-Hover.png);
+    background-image: url(../images/airportalhouse-Hover.png);
     background-size: 300px 260px;
 }
 .airportalLogo {
@@ -217,13 +217,13 @@ a {
 .buhiHouse {
     width: 300px;
     height: 362.39px;
-    background-image: url(images/buhihouse-normal.png);
+    background-image: url(../images/buhihouse-normal.png);
     background-size: 300px 362.29px;
 }
 .buhiHouse:hover {
     width: 300px;
     height: 362.39px;
-    background-image: url(images/buhiHouseHOVER.png);
+    background-image: url(../images/buhiHouseHOVER.png);
     background-size: 300px 362.29px;
 }
 .buhiLogo {
