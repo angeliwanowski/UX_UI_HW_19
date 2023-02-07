@@ -49,7 +49,7 @@
         <img class="stairs" src="images/stairs.png">
         <h3>skills</h3>
 <!-- this skills section is built with CSS flex and media queries -->
-        <div class="masterofLists">
+        <!-- <div class="masterofLists">
             <div class="design">
                 <h2>design</h2>
                 <ul class="designList">
@@ -94,8 +94,55 @@
                     <li>javascript</li>
                 </ul>
             </div></div>
-        </div>
+        </div> -->
+    <div class="tab">
+        <button class="tabLinks" onclick="openSkill(event, 'design')">design</button>
+        <button class="tabLinks" onclick="openSkill(event, 'research')">research</button>
+        <button class="tabLinks" onclick="openSkill(event, 'tools')">tools</button>
+        <button class="tabLinks" onclick="openSkill(event,'code')">code</button>
     </div>
+    <div class="tabContent" id="design">
+        <ul class="designList">
+            <li>information architecture</li>
+            <li>responsive web design</li>
+            <li>ui iterations</li>
+            <li>typography</li>
+            <li>style guides</li>
+            <li>interaction design</li>
+            <li>wireframing</li>
+            <li>prototyping</li>
+        </ul>
+    </div>
+    <div class="tabContent" id="research">
+        <ul class="researchList">
+            <li>competitor analysis</li>
+            <li>heuristic analysis</li>
+            <li>customer journey mapping</li>
+            <li>user personas</li>
+            <li>usability evaluation</li>
+            <li>affinity diagrams</li>
+        </ul>
+    </div>
+    <div class="tabContent" id="tools">
+        <ul class="toolsList">
+            <li>figma</li>
+            <li>adobe xd</li>
+            <li>github</li>
+            <li>adobe suite</li>
+            <li>webflow</li>
+            <li>visual studio code</li>
+        </ul>
+    </div>
+    <div class="tabContent" id="code">
+        <ul class="codeList">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>bootstrap</li>
+            <li>javascript</li>
+        </ul>
+    </div>
+    </div>
+<br><br>
 </section>
 <br><br>
 <hr>
