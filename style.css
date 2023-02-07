@@ -69,6 +69,7 @@ body {
     background-image: url("images/fccHover.png");
     background-repeat: no-repeat;
     width: 300px;
+    cursor: pointer;
     
 }
 .fccLogo {
@@ -154,6 +155,8 @@ body {
     background-image: url("images/wegighouse-hover.png");
     background-repeat: no-repeat;
     width: 300px;
+    cursor: pointer;
+
 }
 a {
     text-decoration: none;
@@ -207,6 +210,8 @@ a {
     height: 260px;
     background-image: url("images/airportalhouse-Hover.png");
     background-size: 300px 260px;
+    cursor: pointer;
+
 }
 .airportalLogo {
     width: 162px;
@@ -225,6 +230,8 @@ a {
     height: 362.39px;
     background-image: url("images/buhiHouseHOVER.png");
     background-size: 300px 362.29px;
+    cursor: pointer;
+
 }
 .buhiLogo {
     width: 175px;
@@ -256,7 +263,7 @@ h1 {
     padding-bottom: 0;
     letter-spacing: -3px;
     padding-left: 5%;
-    line-height: 200px;
+    line-height: 10%;
 }
 @media screen and (min-width: 1201px) {
     h1 {

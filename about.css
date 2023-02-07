@@ -375,3 +375,19 @@ hr {
     padding-left: 75px;
     padding-top: 15px;
 }
+.h404 {
+    display: none;
+    font-family: 'poppins', sans-serif;
+    font-size: 200px;
+    margin-right: 10px;
+    color: #101ECB;
+}
+.errorContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 75px;
+    row-gap: 10px;
+    
+}
