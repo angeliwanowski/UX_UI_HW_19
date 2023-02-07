@@ -1,10 +1,10 @@
-// // button state change on click
-// $(document).ready(function(){
-//     $(".desktop").on("click",function(){
-//     $(this).addClass('active');
-//     $(".stairs").animate({ width: "700px"});
-//     });
-//     });
+// button state change on click
+$(document).ready(function(){
+    $(".desktop").on("click",function(){
+    $(this).addClass('active');
+    $(".stairs").animate({ width: "700px"});
+    });
+    });
 
 // event listener on clickkkkk
 $(document).ready(function(){
