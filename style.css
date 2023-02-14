@@ -186,7 +186,7 @@ body {
     color: #101ECB;
 }
 .viewProject {
-    background-color: #101ECB;
+    background-color: #101ECB !important;
     color: #FFF4E0;
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
@@ -202,7 +202,7 @@ body {
     height: 57px;
 }
 .viewProject:hover {
-    background-color: #FFF4E0;
+    background-color: #FFF4E0 !important;
     color: #101ECB;
     border: 2px solid;
     border-color: #101ECB;
