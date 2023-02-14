@@ -158,11 +158,31 @@ body {
     cursor: pointer;
 
 }
-a {
+.navbar {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 600;
+    color: #101ECB;
+}
+.buttons {
+    text-decoration: none;
+    color: #FFF4E0;
+}
+.buttons:hover {
+    color: #101ECB;
+}
+.a:visited {
+    text-decoration: none;
+    color: #FFF4E0;
+}
+.buttonBoi {
+    color: #FFF4E0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.buttonBoi:hover {
     color: #101ECB;
 }
 .viewProject {
@@ -275,7 +295,7 @@ h1 {
           font-size: 90px;
           padding-left: 80px;
         } }
-/* pre {
+pre {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #101ECB;
@@ -283,8 +303,8 @@ h1 {
     font-size: 60px;
     letter-spacing: -3px;
     white-space: pre-wrap;
-    word-break: keep-all;
-} */
+    flex-wrap: wrap;
+}
 @media screen and (min-width: 1201px) {
     pre {
       font-size: 60px;
@@ -517,4 +537,6 @@ p {
 .scrollText li{
     line-height: 1%;
 }
-
+.projectView {
+    margin-top: 5px;
+}
